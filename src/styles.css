@@ -1,0 +1,74 @@
+/* styles.css */
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.piadas-container,
+.favoritos-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.piadas-container h1,
+.favoritos-container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.piadas-container label {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.favoritos-container label {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.favoritos-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favoritos-container button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favoritos-container button:hover {
+  background-color: #b2202b;
+}
